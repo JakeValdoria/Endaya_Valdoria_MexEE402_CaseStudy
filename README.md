@@ -9,7 +9,7 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Endaya, Earl Jasper | | MEXE-4103 |
+| Endaya, Earl Jasper | 22-07503 | MEXE-4103 |
 | Valdoria, Jake | 22-04213 | MEXE-4103 |
 
 ## Notebook links
@@ -19,10 +19,10 @@ Batangas State University, Alangilan Campus
 | Ch1_2_3 | [link]() | https://colab.research.google.com/drive/1GkqRrTyZr_UV3hyHVI-6e0kbsA3HCNuZ?usp=drive_link |
 | Ch4 | [link]() | https://colab.research.google.com/drive/1Mi5WvPe8LXEJp8n2EcsagkcIEkgplwqU?usp=drive_link |
 | Ch5 | [link]() | https://colab.research.google.com/drive/1sb6_CvSzFqQ4ryc4Zl5qFxGMqV9OOu9-?usp=drive_link |
-| Ch6 | [link]() | [link]() |
-| Ch7 | [link]() | [link]() |
-| Ch8 | [link]() | [link]() |
-| Ch9 | [link]() | [link]() |
+| Ch6 | https://colab.research.google.com/drive/1hNMW1RrOAd1KXjnpJh1NkxGPGkQfU-OU?usp=sharing | [link]() |
+| Ch7 | https://colab.research.google.com/drive/1odb9Wxh5QqOhW1FgYzdhGoBWhXFTmNTd?usp=sharing | [link]() |
+| Ch8 | https://colab.research.google.com/drive/1baglD9jl-tluXKfV64TcBtSlEOPi7SAU?usp=sharing | [link]() |
+| Ch9 | https://colab.research.google.com/drive/1VDzzgYo7vIbvAfj_M77BgXd7EC7-JGHy?usp=sharing | [link]() |
 
 ## What we learned
 
