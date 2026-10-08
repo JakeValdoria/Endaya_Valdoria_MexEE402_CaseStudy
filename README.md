@@ -10,7 +10,7 @@ Batangas State University, Alangilan Campus
 | Name | Student Number | Section |
 |---|---|---|
 | Endaya, Earl Jasper | | |
-| Valdoria, Jake | | |
+| Valdoria, Jake | 22-04213 | MEXE-4103 |
 
 ## Notebook links
 
