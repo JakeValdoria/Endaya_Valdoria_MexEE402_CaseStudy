@@ -26,8 +26,16 @@ Batangas State University, Alangilan Campus
 
 ## What we learned
 
-One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
-you and what surprised you. Not what the library does, but what you understood.
+In chapter 1, I learned that the data should be organized and have no error before using it in machine learning. I realized that even with much data this will not be valuable if it is messy, if there is an error or if there is any missing data. Also I understand that preprocessing data is one of the important things before using machine learning. 
+
+In chapter 2, I understand and learned that it is important to know first what is the condition and what is in the dataset. I realized we need to check the rows , columns, missing values, or data types. I also realized that a simple checking of the dataset can let you know more about the data. 
+
+In this chapter 3 gives me a better understanding about being safe in handling missing data or data that is not needed. I also realized that not all the missing values have the same way of fixing it. Also I learned that there are information that can be removed because it is not useful in analysis.
+
+The most important part of chapter 4 that I have learned is that we can make new information from existing data. I also realized that by combining variables, we can easily see the patterns in the data. Moreover, from simple existing data we can create new useful data for machine learning.
+
+This chapter 5 gives me a better idea why scaling numerical data is important. Having a big difference in values of the features can affect the result of the learning machine model. I also realized that scaling is not always necessary because it depends on the data we are working with. 
+
 
 ## Errors we found
 
