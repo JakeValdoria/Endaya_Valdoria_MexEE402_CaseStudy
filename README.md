@@ -36,11 +36,25 @@ The most important part of chapter 4 that I have learned is that we can make new
 
 This chapter 5 gives me a better idea why scaling numerical data is important. Having a big difference in values of the features can affect the result of the learning machine model. I also realized that scaling is not always necessary because it depends on the data we are working with. 
 
+The chapter 6 helped us understand that an outlier is more than just a big number, because it can change how the whole dataset looks. In the sample, the value 100 pulled the mean up to 26.5, while the median stayed at 17.5, so we learned that the median is steadier when outliers are present. We were surprised that the Z-score method did not flag 100 (its Z-score was 2.615, just under the cutoff of 3), while the IQR method did. From this, we learned that IQR may be a good first choice when a dataset is small.
+
+The chapter 7 taught us that feature selection does not always give one single answer. The three methods gave three different results: the filter kept 3 features, RFECV kept assignments completed, and Lasso kept a different group of 3, including extracurricular activities. We learned that each method asks a different question: is the feature related to the target, does the model score better with it, and does the model still need it while training. It also reminded us to read outputs carefully, because the filter's list included final grade, which is the value we are trying to predict.
+
+The chapter 8 showed us that a pipeline is like writing a recipe once and reusing it every time. What helped us most was understanding the order of the steps: missing values are filled first, and then the data is scaled. Age had 177 missing values (about 20% of the 891 passengers), so the imputer step was important. We also liked that ColumnTransformer lets us choose exactly which columns to process which are Age and Fare
+
+Lastly, This chapter brought together everything from the earlier chapters using the Titanic data. We also really appreciated the graphs in this chapter, because they helped us understand the data much better than numbers alone. The survival count plot showed that only about 38% of the 891 passengers survived. The gender and passenger class plots made it easy to compare who was more likely to survive. The fare boxplot and the correlation heatmap gave us a quick picture of how the columns relate to each other. We are thankful that these visuals were included, since they made the results easier to understand and gave us a good way to double-check our work.
 
 ## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+While working through the notebooks, we noticed a few small things that we would like to respectfully share. We may have misunderstood some parts, and we are happy to be corrected.
+
+Chapter 6: In the first outlier example, the notebook says that the number 100 is clearly an outlier. When we ran the cell, though, it showed an empty list, which means the code did not find any outlier. We think this is because the score for 100 was 2.615, which is a little under the limit of 3 that the notebook uses. So in this example, the first method misses it, but the second method (IQR) catches it. We think it would be clearer if the note said this, or if the limit were lowered to 2.
+
+Chapter 7: In the first method for choosing features, the final list of “useful features” also includes final grade. We think this should not be there, because final grade is the answer we want to predict, not one of the features we use to predict it. It appears because every column matches itself perfectly, so it passes the filter automatically. If we remove it first, the list should only have study hours, assignments completed, and class participation.
+
+Chapter 8: We did not find anything that needed correcting in this notebook. The steps ran correctly, and the results matched the explanations. We may have missed something, so we are open to any feedback.
+
+Chapter 9: We noticed two small things here. First, the two graphs that compare age before and after grouping do not seem to show what their titles say. The “before” graph is drawn after the ages were already changed into Child, Adult, and Elderly, so it shows only three bars. The “after” graph uses the third column of the cleaned data, which is the Embarked column, not Age. Second, the introduction says that Fare would be adjusted and PassengerId removed, but we could not find any cell that does this. We think these could be fixed by keeping the original ages in a separate column and adding the two missing steps.
 
 ## Note on AI tools
 
