@@ -9,8 +9,8 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Surname, First Name | | |
-| Surname, First Name | | |
+| Endaya, Earl Jasper | | |
+| Valdoria, Jake | | |
 
 ## Notebook links
 
