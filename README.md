@@ -47,6 +47,8 @@ Lastly, This chapter 9 brought together everything from the earlier chapters usi
 
 While working through the notebooks, we noticed a few small things that we would like to respectfully share. We may have misunderstood some parts, and we are happy to be corrected.
 
+Chapters 1 to 5, we found no major errors that would affect the overall results of the activities.
+
 Chapter 6: In the first outlier example, the notebook says that the number 100 is clearly an outlier. When we ran the cell, though, it showed an empty list, which means the code did not find any outlier. We think this is because the score for 100 was 2.615, which is a little under the limit of 3 that the notebook uses. So in this example, the first method misses it, but the second method (IQR) catches it. We think it would be clearer if the note said this, or if the limit were lowered to 2.
 
 Chapter 7: In the first method for choosing features, the final list of “useful features” also includes final grade. We think this should not be there, because final grade is the answer we want to predict, not one of the features we use to predict it. It appears because every column matches itself perfectly, so it passes the filter automatically. If we remove it first, the list should only have study hours, assignments completed, and class participation.
