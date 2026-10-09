@@ -41,7 +41,7 @@ The chapter 7 taught us that feature selection does not always give one single a
 
 The chapter 8 showed us that a pipeline is like writing a recipe once and reusing it every time. What helped us most was understanding the order of the steps: missing values are filled first, and then the data is scaled. Age had 177 missing values (about 20% of the 891 passengers), so the imputer step was important. We also liked that ColumnTransformer lets us choose exactly which columns to process which are Age and Fare
 
-Lastly, This chapter brought together everything from the earlier chapters using the Titanic data. We also really appreciated the graphs in this chapter, because they helped us understand the data much better than numbers alone. The survival count plot showed that only about 38% of the 891 passengers survived. The gender and passenger class plots made it easy to compare who was more likely to survive. The fare boxplot and the correlation heatmap gave us a quick picture of how the columns relate to each other. We are thankful that these visuals were included, since they made the results easier to understand and gave us a good way to double-check our work.
+Lastly, This chapter 9 brought together everything from the earlier chapters using the Titanic data. We also really appreciated the graphs in this chapter, because they helped us understand the data much better than numbers alone. The survival count plot showed that only about 38% of the 891 passengers survived. The gender and passenger class plots made it easy to compare who was more likely to survive. The fare boxplot and the correlation heatmap gave us a quick picture of how the columns relate to each other. We are thankful that these visuals were included, since they made the results easier to understand and gave us a good way to double-check our work.
 
 ## Errors we found
 
@@ -58,6 +58,8 @@ Chapter 9: We noticed two small things here. First, the two graphs that compare 
 ## Note on AI tools
 
 We used AI to translate English into Tagalog so that the lessons would be easier to understand and help us develop a better understanding of each topic. AI also provided different examples that helped us understand more clearly what we were doing in each chapter.
+
+We used also a few different AI tools for this case study. The one we found most helpful was Claude, because in our experience it handles coding-related questions very well. It helped us to notice parts of the notebooks that were easy to miss by eye, such as outputs that did not match their explanations. It also helped us to understand how each term and function in the code works, so we could see why the program gives the output it does. Then checked these points against the notebook outputs ourselves, and we can explain them in our own words.
 
 ## References
 
