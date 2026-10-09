@@ -13,7 +13,7 @@ Batangas State University, Alangilan Campus
 
 ## Notebook links
 
-| Chapter | Member 1 | Member 2 |
+| Chapter | ENDAYA, EARL JASPER | VALDORIA, JAKE C. |
 |---|---|---|
 | Ch1_2_3 | [link]() | https://colab.research.google.com/drive/1GkqRrTyZr_UV3hyHVI-6e0kbsA3HCNuZ?usp=drive_link |
 | Ch4 | [link]() | https://colab.research.google.com/drive/1Mi5WvPe8LXEJp8n2EcsagkcIEkgplwqU?usp=drive_link |
