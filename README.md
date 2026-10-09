@@ -1,4 +1,3 @@
-# Endaya_Valdoria_MexEE402_CaseStudy
 # MexEE 402: Data Preprocessing Case Study
 
 MexEE Elective 2: Data Science and Machine Learning
@@ -26,15 +25,15 @@ Batangas State University, Alangilan Campus
 
 ## What we learned
 
-In chapter 1, I learned that the data should be organized and have no error before using it in machine learning. I realized that even with much data this will not be valuable if it is messy, if there is an error or if there is any missing data. Also I understand that preprocessing data is one of the important things before using machine learning. 
+In chapter 1, we learned that the data should be organized and have no error before using it in machine learning. We realized that even with much data this will not be valuable if it is messy, if there is an error or if there is any missing data. Also we understand that preprocessing data is one of the important things before using machine learning. 
 
-In chapter 2, I understand and learned that it is important to know first what is the condition and what is in the dataset. I realized we need to check the rows , columns, missing values, or data types. I also realized that a simple checking of the dataset can let you know more about the data. 
+In chapter 2, we understand and learned that it is important to know first what is the condition and what is in the dataset. We realized we need to check the rows , columns, missing values, or data types. We also realized that a simple checking of the dataset can let you know more about the data. 
 
-In this chapter 3 gives me a better understanding about being safe in handling missing data or data that is not needed. I also realized that not all the missing values have the same way of fixing it. Also I learned that there are information that can be removed because it is not useful in analysis.
+In this chapter 3 gives us a better understanding about being safe in handling missing data or data that is not needed. We also realized that not all the missing values have the same way of fixing it. Also we learned that there are information that can be removed because it is not useful in analysis.
 
-The most important part of chapter 4 that I have learned is that we can make new information from existing data. I also realized that by combining variables, we can easily see the patterns in the data. Moreover, from simple existing data we can create new useful data for machine learning.
+The most important part of chapter 4 that we have learned is that we can make new information from existing data. We also realized that by combining variables, we can easily see the patterns in the data. Moreover, from simple existing data we can create new useful data for machine learning.
 
-This chapter 5 gives me a better idea why scaling numerical data is important. Having a big difference in values of the features can affect the result of the learning machine model. I also realized that scaling is not always necessary because it depends on the data we are working with. 
+This chapter 5 gives us a better idea why scaling numerical data is important. Having a big difference in values of the features can affect the result of the learning machine model. We also realized that scaling is not always necessary because it depends on the data we are working with. 
 
 The chapter 6 helped us understand that an outlier is more than just a big number, because it can change how the whole dataset looks. In the sample, the value 100 pulled the mean up to 26.5, while the median stayed at 17.5, so we learned that the median is steadier when outliers are present. We were surprised that the Z-score method did not flag 100 (its Z-score was 2.615, just under the cutoff of 3), while the IQR method did. From this, we learned that IQR may be a good first choice when a dataset is small.
 
@@ -58,8 +57,7 @@ Chapter 9: We noticed two small things here. First, the two graphs that compare 
 
 ## Note on AI tools
 
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
+We used AI to translate English into Tagalog so that the lessons would be easier to understand and help us develop a better understanding of each topic. AI also provided different examples that helped us understand more clearly what we were doing in each chapter.
 
 ## References
 
